@@ -42,3 +42,8 @@ htmlcov/
 
 # Redis dumps
 dump.rdb
+*.ini
+*.db
+*.sh
+*.pid
+*.mako

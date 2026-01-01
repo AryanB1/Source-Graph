@@ -1,4 +1,4 @@
-# Bluesky Ingestion Module Dependencies
+# Source Graph Backend Dependencies
 
 # Core HTTP and async
 httpx>=0.25.0,<1.0.0
@@ -8,6 +8,15 @@ redis>=5.0.0,<6.0.0
 
 # Data validation
 pydantic>=2.0.0,<3.0.0
+
+# FastAPI and ASGI server
+fastapi>=0.109.0,<1.0.0
+uvicorn[standard]>=0.27.0,<1.0.0
+
+# Database
+sqlalchemy>=2.0.0,<3.0.0
+alembic>=1.13.0,<2.0.0
+psycopg2-binary>=2.9.0,<3.0.0
 
 # Testing
 pytest>=7.4.0,<8.0.0
